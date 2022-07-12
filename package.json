@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.4"
+  },
+  "dependencies": {
+    "@types/three": "^0.141.0",
+    "flag-waiter": "^1.0.5",
+    "gsap": "^3.10.4",
+    "lil-gui": "^0.16.1",
+    "three": "^0.141.0"
+  }
+}
